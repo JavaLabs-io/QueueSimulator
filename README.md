@@ -44,7 +44,7 @@ git clone https://github.com/JavaLabs-io/QueueSimulator.git
 
 ## Sample Output
 
-![Queue Simulator Output](images/output.png)
+![Queue Simulator Output](images/carbon.png)
 
 ---
 
