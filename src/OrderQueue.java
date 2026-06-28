@@ -35,6 +35,22 @@ public class OrderQueue {
         }
     }
 
+    public Order searchOrder(int orderId) {
+    for (Order order : priorityQueue) {
+        if (order.getOrderId() == orderId) {
+            return order;
+        }
+    }
+
+    for (Order order : regularQueue) {
+        if (order.getOrderId() == orderId) {
+            return order;
+        }
+    }
+
+    return null;
+}
+
     public Order peek() {
         if (!priorityQueue.isEmpty()) return priorityQueue.peek();
         return regularQueue.peek();

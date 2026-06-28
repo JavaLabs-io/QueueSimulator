@@ -1,6 +1,14 @@
 public class Main {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         OrderQueue queue = new OrderQueue();
+
+        Order found = queue.searchOrder(2);
+
+        if (found != null) {
+            System.out.println("Found: " + found);
+        } else {
+            System.out.println("Order not found.");
+        }
 
         queue.enqueue("Saket", "CinnammonRoll", true);
         queue.enqueue("Taylor", "Sourdough", true);
@@ -12,9 +20,9 @@ public class Main {
         queue.displayQueue();
 
         System.out.println("\n ---Processing Orders ---");
-        while(!queue.isEmpty()){
+        while (!queue.isEmpty()) {
             queue.dequeue();
         }
     }
-    
+
 }
