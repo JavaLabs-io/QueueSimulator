@@ -44,21 +44,7 @@ git clone https://github.com/JavaLabs-io/QueueSimulator.git
 
 ## Sample Output
 
-```
---- Current Queue ---
-Priority orders (4):
-  [PRIORITY] Order #1 | Saket | Item: CinnamonRoll
-  [PRIORITY] Order #2 | Taylor | Item: Sourdough
-Regular orders  (2):
-  [REGULAR] Order #4 | Alice | Item: Bread
-  [REGULAR] Order #6 | Ajaz | Item: idk
----------------------
-=== Processing Orders ===
-Serving  (PRIORITY): [PRIORITY] Order #1 | Saket | Item: CinnamonRoll
-Serving  (PRIORITY): [PRIORITY] Order #2 | Taylor | Item: Sourdough
-Serving   (REGULAR): [REGULAR] Order #4 | Alice | Item: Bread
-Serving   (REGULAR): [REGULAR] Order #6 | Ajaz | Item: idk
-```
+![Queue Simulator Output](images/output.png)
 
 ---
 
